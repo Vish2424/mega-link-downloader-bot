@@ -5,7 +5,7 @@ class Config(object):
     
     APP_ID = 16620990
     
-    API_HASH = d684f9b645ea3b73e915202bf75ca7bd
+    API_HASH = "d684f9b645ea3b73e915202bf75ca7bd"
     
     Mega_email = os.environ.get("Mega_email", "None") # This is not necessary! Enter your mega email only if you have a mega.nz account with pro/business features.
     #If deploying on vps edit the above value as example := Mega_email = "Your-Mega_email-inside-inverted-commas."
